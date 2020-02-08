@@ -1,0 +1,222 @@
+/*-------------------------------------------------
+
+	- Proyect: Bradia Soluciones en TI landing page
+	- Date: Oct 2019
+	- Author: Bryan Rodríguez
+
+-------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .header-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .logo {
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+    float: left;
+  }
+
+  .row-max,
+  .row-90 {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 2%;
+  }
+
+  .plan-box {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .plan-price {
+    font-size: 260%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .main-nav {
+    display: block;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .icon-small {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .icon-check {
+    font-size: 130%;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .plan-price {
+    font-size: 220%;
+  }
+
+  .section-web .col {
+    width: 48%;
+    margin-left: 2%;
+  }
+
+  .section-web .col p {
+    padding-bottom: 20px;
+  }
+
+  .section-bradia .col {
+    width: 48%;
+    margin-left: 2%;
+  }
+
+  .section-contacto .col {
+    width: 100%;
+  }
+
+  .icons-marketing {
+    margin-bottom: 20px;
+  }
+  .icons-marketing i {
+    font-size: 180%;
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 30px 0;
+  }
+
+  h1 {
+    font-size: 140%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  .col {
+    width: 48%;
+    margin-left: 2%;
+  }
+
+  .icons-marketing {
+    margin-bottom: 15px;
+  }
+
+  .plan-box {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+
+  .section-marketing .col {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .section-servicios .col {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.9);
+    color: white;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    transition: 0.3s;
+  }
+
+  .main-nav {
+    margin-top: 35px;
+    float: left;
+    margin-left: 25px;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    color: white;
+    padding: 12px 0;
+    display: block;
+    border: none;
+    font-size: 80%;
+    text-align: left;
+  }
+
+  .logo {
+    margin-top: 5px;
+    height: 40px;
+    width: auto;
+    float: left;
+  }
+
+  .mobile-nav-icon i {
+    font-size: 200%;
+    color: #0078d7;
+  }
+
+  .logo-full {
+    margin: 0 0 15px 0;
+    width: 60%;
+    height: auto;
+  }
+
+  .span-1-of-4 {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .section-sistemas .row-brands {
+    display: none;
+  }
+
+  .section-sistemas .row-brands-res {
+    display: block;
+  }
+  .section-sistemas .row-brands-res .col {
+    width: 23%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .section-telecom .col {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+
+  .section-telecom .row-brands .col {
+    width: 31%;
+    margin-left: 2%;
+
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}
